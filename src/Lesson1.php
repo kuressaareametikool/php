@@ -5,7 +5,7 @@ namespace Lessons;
 class Lesson1
 {
     public function helloWorld(){
-        /// Kirjuta oma kood siia
+        echo 'hello'
 
     }
 
