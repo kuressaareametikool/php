@@ -6,6 +6,7 @@ class Lesson1
 {
     public function helloWorld(){
         /// Kirjuta oma kood siia
+        return "Test message"
 
     }
 
