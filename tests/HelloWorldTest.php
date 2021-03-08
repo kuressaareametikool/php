@@ -8,7 +8,7 @@ it('home returns hello world', function () {
 });
 
 it('returns an array of items', function (){
-    expect((new Lesson1())->createArray())->toBeArray();
+    $this->assertCount(3, (new Lesson1())->createArray());
 });
 
 it('returns a function', function (){

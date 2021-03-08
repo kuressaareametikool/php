@@ -32,5 +32,5 @@ Hinde saad selle järgi kui mitu testi oled passima saanud:
 ## Ülesanded
 
 1. Funktsioon peab tagastama lause "Hello, World!"
-2. Funktsioon peab tagastama `array`
+2. Funktsioon peab tagastama `array`, milles on 3 itemit
 3. Funktsioon peab kokku liitma 2 arvu ja tagastama tulemuse
