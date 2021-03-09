@@ -5,7 +5,7 @@ namespace Lessons;
 class Lesson1
 {
     public function helloWorld(){
-        return "Hello World!";
+        return "Hello, World!";
 
     }
 
