@@ -6,7 +6,7 @@ class Lesson1
 {
     public function helloWorld()
     {
-        echo "Hello world!";
+        return "Hello world!";
     }
 
     public function createArray()
