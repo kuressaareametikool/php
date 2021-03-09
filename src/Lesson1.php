@@ -5,20 +5,21 @@ namespace Lessons;
 class Lesson1
 {
     public function helloWorld(){
-        echo "Hello World!";
+        return "Hello World!";
 
     }
 
     public function createArray()
     {
-        $cars = array (
-            "Nissan", "Toyota", "škoda"
-        )
-        echo $cars
+        $array = [
+            "key1" => "item1",
+            "key2" => "item2",
+            "key3" => "item3",
+        ];
+        return $array;
     }
 
     public function addFunction( int $a, int $b){
-        return $a + $b
+        return $a + $b;
     }
-    echo addFunction(5, 10);
 }
