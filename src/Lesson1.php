@@ -6,7 +6,7 @@ class Lesson1
 {
     public function helloWorld()
     {
-        return "Hello world!";
+        return "Hello, World!";
     }
 
     public function createArray()
