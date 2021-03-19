@@ -11,5 +11,5 @@ it('returns the percentage of the number in correct format', function (){
 
 it( 'calculates the contents of an array', function () {
     $array = [3,6,27,8,4,6,7,54,3,5,6,7,65,4,1,23,12,767,31,64,42,54,94];
-    expect((new Lesson2())->calcArray($array))->toBe(94);
+    expect((new Lesson2())->calcArray($array))->toBe(1293);
 });
