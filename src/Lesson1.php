@@ -5,18 +5,22 @@ namespace Lessons;
 class Lesson1
 {
     public function helloWorld(){
-        /// Kirjuta oma kood siia
+
+        return "Hello, World!";
 
     }
 
     public function createArray()
     {
-        /// Kirjuta oma kood siia
+        $array = [1, 38, 17];
+
+        return $array;
 
     }
 
     public function addFunction($a,$b){
-        /// Kirjuta oma kood siia
+        $answer = $a + $b;
+        return $answer;
 
     }
 }
