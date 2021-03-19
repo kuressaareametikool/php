@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Hello world",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it home returns hello world'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Array of items",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it returns an array of items'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Returns a function",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it returns a function'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Calc percentage",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it returns the percentage of the number in correct format'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Calc array",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it calculates the contents of an array'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
